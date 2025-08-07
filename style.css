@@ -1,0 +1,58 @@
+.h {
+    color: red;
+    text-align: center
+}
+
+
+#home {
+    background-image: url(background.jpg);
+    border-radius: 10px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: left;
+    text-align: right;
+    gap: 30px
+}
+
+nav ul li a:hover {
+    color: blue;
+    background-color: rgb(187, 179, 179);
+    display: block;
+    padding-left: 30px;
+    border-radius: 5px
+}
+
+.profile {
+    position: center;
+    height: auto;
+    width: 80%;
+    display: flex;
+
+}
+
+p {
+    text-align: justify;
+}
+
+#about {
+    text-align: center;
+    border-radius: 15px;
+    background-color: aliceblue;
+
+
+}
+
+.header {
+    background-color: rgb(92, 132, 167)
+    height: 100px;
+    text-align:center;
+    padding-top : 20px;
+    border-radius: 15px;
+}
+
+#skills {
+    background-color: rgb(102, 207, 207) padding: 20px;
+    border-radius: 15px;
+}
