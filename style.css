@@ -5,14 +5,15 @@
 
 
 #home {
-    background-image: url(background.jpg);
+    background-image: url(BACK3.jpg);
     border-radius: 10px;
+    color: white;
 }
 
 nav ul {
-    display:flex;
-    text-align:justify;
-    gap: 30px;
+    display: flex;
+    text-align: justify;
+    gap: 1.5em;
     list-style-type: none;
     padding: 15px;
 }
@@ -24,9 +25,11 @@ nav ul li a:hover {
     padding-left: 30px;
     border-radius: 5px;
 }
-nav a{
+
+nav a {
     text-decoration: none;
 }
+
 .profile {
     position: center;
     height: auto;
@@ -42,7 +45,7 @@ p {
 #about {
     text-align: center;
     border-radius: 15px;
-    background-color: aliceblue;
+    background-image: url(background.jpg);
 
 
 }
@@ -50,23 +53,26 @@ p {
 .header {
     background-color: rgb(92, 132, 167);
     height: 100px;
-    text-align:center;
-    padding-top : 20px;
+    text-align: center;
+    padding-top: 20px;
     border-radius: 15px;
 }
 
 #skills {
-    background-color: rgb(102, 207, 207);
+    background-IMAGE: url(back.jpg);
     padding: 20px;
     border-radius: 15px;
+    color: orange;
 }
-#resume{
+
+#resume {
     text-align: center;
     color: rgb(16, 16, 16);
     border-radius: 15px;
     background-color: blanchedalmond;
     padding: 30px;
 }
+
 button {
     background-color: rgb(8, 106, 192);
     color: white;
@@ -75,15 +81,23 @@ button {
     border-radius: 10px;
     cursor: pointer;
 }
-#contact{
+
+#contact {
     text-align: center;
-    color: rgb(16, 16, 16);
+    color: rgb(0, 255, 153);
     border-radius: 15px;
-    background-color: rgb(159, 159, 47);
+    background-image: url(back4.jpg);
     padding: 5px;
-    color: rgb(15, 13, 13);
     border-radius: 12px;
-}
-.container{
-    text-align: center;
-}
+    border-color: brown;
+
+    .container {
+        text-align: center;
+    }
+
+    h3 {
+        color: rgb(213, 221, 227);
+        font-size: 20px;
+        font-weight: bold;
+        text-decoration: underline;
+    }
