@@ -26,9 +26,6 @@ nav ul li a:hover {
     border-radius: 5px;
 }
 
-nav a {
-    text-decoration: none;
-}
 
 .profile {
     position: center;
@@ -74,7 +71,6 @@ p {
 }
 
 button {
-    background-color: rgb(8, 106, 192);
     color: white;
     padding: 10px 20px;
     border: none;
@@ -84,12 +80,10 @@ button {
 
 #contact {
     text-align: center;
-    color: rgb(0, 255, 153);
-    border-radius: 15px;
-    background-image: url(back4.jpg);
-    padding: 5px;
-    border-radius: 12px;
-    border-color: brown;
+    color: rgb(18, 18, 18);
+    border-radius: 15px
+    border-color:brown;
+}
 
     .container {
         text-align: center;
